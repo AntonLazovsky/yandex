@@ -1,0 +1,147 @@
+body {
+    background: url('images/back.png') center fixed;
+    background-size: cover;
+    margin: 0;
+}
+#name > p {
+    display: inline-block;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+a.site {
+    color: black;
+}
+
+/* Шапка */
+header {
+    height: 80px;
+    background: #e61400;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 8px;
+}
+#line {
+    display: table;
+    margin: 5px auto;
+}
+#name {
+    display: table-cell;
+    background: white;
+    width: 450px;
+    border: 3px solid #ffdb4c;
+}
+#yandex {
+    display: table-cell;
+    width: 150px;
+    background: #ffdb4c;
+}
+#triangle {
+    display: table-cell;
+    width: 0;
+    height: 0;
+    border-top: 32px solid transparent;
+    border-left: 25px solid #ffdb4c;
+    border-bottom: 32px solid transparent;
+}
+#name > p:first-letter {
+    color: #e61400;
+}
+
+/* Контент */
+article {
+    width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    border-radius: 0 0 20px 20px;
+}
+.photo {
+    width: 250px;
+    height: 344px;
+    border-radius: 5px;
+    float: left;
+}
+#profile table {
+    border-spacing: 5px;
+}
+#profile td {
+    border-spacing: 10px;
+    padding-left: 15px;
+}
+#profile td:first-child {
+    font-weight: bold;
+}
+#profile td:last-child {
+    padding-left: 15px;
+}
+.vk {
+    position: absolute;
+    background: linear-gradient(#5e82a8, #2B587A);
+    color: white;
+    width: 38px;
+    height: 38px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 2em;
+    text-align: center;
+}
+.vk:hover {
+    background: linear-gradient(#6f96bc, #2f688e);
+}
+#about {
+    clear: both;
+    padding-top: 5px;
+}
+.site {
+    cursor: pointer;
+    float: left;
+    margin-right: 16px;
+    overflow: hidden;
+    height: 202px;
+}
+.site > img {
+    width: 250px;
+}
+.site-name, .in-progress {
+    transition: 0.5s;
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    padding-top: 16px;
+}
+.site-name {
+    margin-top: -4px;
+    background: rgba(255, 219, 76, 0.9);
+}
+.in-progress {
+    color: white;
+    margin-top: -306px;
+    background: rgba(230, 20, 0, 0.9);
+}
+.site:hover {
+    outline: 3px solid #ffdb4c;
+}
+.site:hover > .site-name {
+    margin-top: -55px;
+}
+.site:hover > .in-progress {
+    margin-top: -204px;
+}
+
+/* Подвал */
+footer {
+    margin-top: 235px;
+    color: lightgray;
+    text-align: center;
+}
