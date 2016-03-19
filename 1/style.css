@@ -61,7 +61,6 @@ article {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 15px;
-    border-radius: 0 0 20px 20px;
 }
 .photo {
     width: 250px;
@@ -106,17 +105,20 @@ article {
     float: left;
     margin-right: 16px;
     overflow: hidden;
-    height: 202px;
+    height: 207px;
+}
+.site:last-child {
+	margin-right: 0;
 }
 .site > img {
-    width: 250px;
+    width: 256px;
 }
 .site-name, .in-progress {
     transition: 0.5s;
     position: relative;
     font-weight: bold;
     text-align: center;
-    width: 250px;
+    width: 256px;
     height: 35px;
     padding-top: 16px;
 }
@@ -126,7 +128,7 @@ article {
 }
 .in-progress {
     color: white;
-    margin-top: -306px;
+    margin-top: -311px;
     background: rgba(230, 20, 0, 0.9);
 }
 .site:hover {
@@ -136,7 +138,7 @@ article {
     margin-top: -55px;
 }
 .site:hover > .in-progress {
-    margin-top: -204px;
+    margin-top: -209px;
 }
 
 /* Подвал */
